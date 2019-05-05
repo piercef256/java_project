@@ -43,6 +43,11 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
             return true;
         }
+        if(item.getItemId() == R.id.add_alarm){
+            Intent intent = new Intent(getApplicationContext(), Set_Alarm.class);
+            startActivity(intent);
+            return true;
+        }
         return false;
     }
 

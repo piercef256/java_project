@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Set_Alarm">
+
+    <Button
+        android:id="@+id/set_alarm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="178dp"
+        android:layout_marginTop="257dp"
+        android:text="Set Alarm" />
+
+    <EditText
+        android:id="@+id/hour_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="102dp"
+        android:ems="10"
+        android:hint="Hour"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/minute_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="176dp"
+        android:ems="10"
+        android:hint="Minute"
+        android:inputType="time" />
+</RelativeLayout>
